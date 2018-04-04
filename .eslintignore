@@ -1,0 +1,7 @@
+/node_modules/
+npm-debug.log
+build/*
+src/backend/*
+public/assets/flexible.js
+mock/*
+*/node_modules/

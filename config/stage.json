@@ -1,0 +1,11 @@
+{
+  "env": "stage",
+  "publicPath": "",
+  "host": "localhost",
+  "port": "8080",
+  "fetchConfig": {
+    "isMock": false,
+    "fetchUrl": "//mbp.99bill.com"
+  },
+  "debug": true
+}
