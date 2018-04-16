@@ -1,6 +1,6 @@
 {
   "env": "stage",
-  "publicPath": "",
+  "publicPath": "http://localhost:8080",
   "host": "localhost",
   "port": "8080",
   "fetchConfig": {

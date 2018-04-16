@@ -84,6 +84,7 @@ if (IS_UGLIFYJS) {
       sourceMap: true,
       compress: {
         warnings: false,
+        pure_funcs: config.get('env') === 'production'?[ 'console.log' ]: [],
         drop_console: config.get('env') === 'production',
         sequences: true,
         properties: true,
@@ -174,7 +175,6 @@ Object.keys(APP_ENTRY_POINT).forEach(name => {
     new HtmlWebpackPlugin({
       filename: `${PROJECT_NAME}.html`,
       template: TEMPLATE_PAGE,
-      test: '123',
       inject: 'true',
       minify: {
         removeComments: true,
