@@ -5,7 +5,7 @@
   "port": "8080",
   "fetchConfig": {
     "isMock": false,
-    "fetchUrl": "//mbp.99bill.com"
+    "fetchUrl": ""
   },
   "debug": true
 }
